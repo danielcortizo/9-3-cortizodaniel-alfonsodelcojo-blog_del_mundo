@@ -43,7 +43,8 @@ nav>ul>li {
 /*ilustraciones*/ 
 
 .ilustracion  { 
-    border: solid, 4px,white;
+    /*border: solid, 4px,white;*/
+    border: 4px white solid;
     display: inline;
     
        
