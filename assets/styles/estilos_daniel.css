@@ -10,13 +10,17 @@ article{
 
 } 
 
-#titulo_del_blog { text-align: center; font-size: 3rem;} 
+.title{ 
+    text-align: center; font-size: 3rem;
+} 
 
 /*terminan clases generales */ 
 
 /*barra de navegacion*/ 
 
-
+li{
+    color: white;
+}
 
 .resaltado { 
     color: yellow; 
@@ -58,4 +62,26 @@ nav>ul>li {
 }
 
 /*fin ilustraciones*/
+
+
+/* apunta solo a los header que son hijos directos de section */
+section>header {
+    /* esta seccion se extendera 12 columnas */
+
+    grid-column: header 12;
+}
+
+section>main {
+
+    grid-column: main 8;
+}
+
+section>aside {
+    grid-column: aside 4;
+}
+
+section>footer {
+    grid-column: footer 12;
+}
+
 
