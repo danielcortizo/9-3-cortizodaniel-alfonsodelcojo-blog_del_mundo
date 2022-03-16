@@ -14,6 +14,10 @@ article{
     text-align: center; font-size: 3rem;
 } 
 
+
+header{
+    text-align: center; front-size: 3rem
+}
 /*terminan clases generales */ 
 
 /*barra de navegacion*/ 
@@ -49,7 +53,7 @@ nav>ul>li {
 .ilustracion  { 
     /*border: solid, 4px,white;*/
     border: 4px white solid;
-    display: inline;
+    display: inline-block;
     
        
     
@@ -64,24 +68,39 @@ nav>ul>li {
 /*fin ilustraciones*/
 
 
+/* grid */
+section {
+    
+    /* despliégate como  grid */
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+
+/* Termina grid */
+
 /* apunta solo a los header que son hijos directos de section */
 section>header {
     /* esta seccion se extendera 12 columnas */
 
-    grid-column: header 12;
+    grid-column: span 12;
 }
 
 section>main {
 
-    grid-column: main 8;
+    grid-column: span 8;
 }
 
 section>aside {
-    grid-column: aside 4;
+    grid-column: span 4;
 }
 
 section>footer {
-    grid-column: footer 12;
+    grid-column: span 12;
 }
 
 
