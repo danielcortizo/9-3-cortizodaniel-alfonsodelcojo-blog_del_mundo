@@ -103,4 +103,27 @@ section>footer {
     grid-column: span 12;
 }
 
+nav > ul {
+    
+    display: flex;
 
+    align-items: center;
+
+    justify-content: space-around;
+
+    border-bottom: 1px solid #fff;
+
+    padding-bottom: 0.5rem;
+}
+
+nav >ul>li>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+nav >ul>li>a:hover {
+
+    text-decoration: underline;
+    color: greenyellow;
+}
