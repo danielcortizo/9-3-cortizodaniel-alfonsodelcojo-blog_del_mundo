@@ -44,6 +44,12 @@ nav>ul>li {
 
 #footer_blog{ 
     margin: 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 4rem 4rem 0rem 0rem;
+    font-size: 1.3rem;
+
 }    
 
 /*fin footer del blog*/ 
@@ -126,4 +132,9 @@ nav >ul>li>a:hover {
 
     text-decoration: underline;
     color: greenyellow;
+}
+
+#footer_blog div:nth-child(2) {
+
+    font-size: 0.9rem;
 }
