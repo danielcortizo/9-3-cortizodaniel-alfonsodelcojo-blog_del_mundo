@@ -171,7 +171,7 @@ aside>div {
     }
 }
 
-@media (min-width: 1024.1px) and (max-width: 1324.1px) {
+@media (min-width: 1324.1px) and (max-width: 1024.1px) {
     aside div {
         /* despliega los elementos de microblogging uno encima del otr */
         flex-direction: column;
@@ -187,4 +187,9 @@ nav{
     background-color: black;
 
 
+}
+
+section  h4{
+
+    display: flex;
 }
