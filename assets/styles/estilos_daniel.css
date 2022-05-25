@@ -193,3 +193,8 @@ section  h4{
 
     display: flex;
 }
+
+tr th{
+
+    color: #fff;
+}
