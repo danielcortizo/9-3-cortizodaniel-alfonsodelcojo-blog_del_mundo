@@ -1,0 +1,22 @@
+.a{
+    list-style-type: none;
+}
+
+.b{
+    list-style-type: circle;
+}
+
+.c{
+    list-style-type: square;
+}
+
+.d{
+    list-style-type: lower-roman;
+}
+.e{
+    list-style-type: lower-greek;
+}
+
+body{
+    background-color: aqua;
+}
