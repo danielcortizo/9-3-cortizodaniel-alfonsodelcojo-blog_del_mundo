@@ -1,22 +1,31 @@
-.a{
-    list-style-type: none;
+
+
+
+
+
+
+
+
+
+body {
+  margin: 40px;
 }
 
-.b{
-    list-style-type: circle;
+.wrapper {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: rgb(212, 24, 24);
 }
 
-.c{
-    list-style-type: square;
+.box {
+  background-color: rgb(206, 32, 32);
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
 }
 
-.d{
-    list-style-type: lower-roman;
-}
-.e{
-    list-style-type: lower-greek;
-}
-
-body{
-    background-color: aqua;
-}
+  
+  
